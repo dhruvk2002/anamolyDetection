@@ -12,8 +12,8 @@ This Streamlit app demonstrates real-time anomaly detection using a sliding wind
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_folder>
+    git clone https://github.com/dhruvk2002/anamolyDetection.git
+    cd anamolyDetection
     ```
 
 2. Install the required dependencies:
