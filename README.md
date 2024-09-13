@@ -32,10 +32,21 @@ This Streamlit app demonstrates real-time anomaly detection using a sliding wind
 - **Matplotlib**: For plotting data streams and detected anomalies.
 - **scikit-learn**: Used for the Isolation Forest model.
 - **Numpy**: For numerical operations.
-- **Python 3.x**: Ensure you have Python installed to run the app.
+- **Python 3.12.5**: Ensure you have Python installed to run the app.
 
 Install all dependencies using:
 ```bash
 pip install streamlit matplotlib scikit-learn numpy
-
+```
 ## How to use
+1. **Adjust Parameters**: Use the slide bar to adjust the parameters
+- **Window Size**: The size of the sliding window used for anomaly detection.
+- **Contamination**: The proportion of anomalies in the data.
+- **Data Length**: The total length of the generated data stream.
+
+2. **View realtime detection**: The app will display the data stream with detected anomalies highlighted in red. The plot updates dynamically as the data stream progresses.
+
+## Future Improvements
+- Adding more advanced detection models.
+- Extending the visualization to include additional data characteristics such as drift or spikes.
+- Improving performance for large data streams.
